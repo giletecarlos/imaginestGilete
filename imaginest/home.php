@@ -3,7 +3,7 @@
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         require_once('logout.php');
         header('location: index.php');
-        exit;
+        exit();
     }
 ?>
 
